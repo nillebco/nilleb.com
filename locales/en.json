@@ -40,5 +40,10 @@
   "writing_title": "Recent writing",
   "blog_link": "All posts →",
   "main_site": "nillebco",
-  "blog": "blog"
+  "blog": "blog",
+  "blog_title": "Notes from the field",
+  "blog_intro": "Cloud, integrations, AI tooling and the occasional detour — written down so the next person (often me) doesn't have to rediscover it.",
+  "portfolio": "portfolio",
+  "portfolio_title": "Portfolio",
+  "portfolio_intro": "Projects, products and open-source work — the details behind the home page."
 }

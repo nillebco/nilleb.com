@@ -40,5 +40,10 @@
   "writing_title": "Articles récents",
   "blog_link": "Tous les articles →",
   "main_site": "nillebco",
-  "blog": "blog"
+  "blog": "blog",
+  "blog_title": "Notes de terrain",
+  "blog_intro": "Cloud, intégrations, outillage IA et quelques détours — mis par écrit pour que le suivant (souvent moi) n'ait pas à tout redécouvrir.",
+  "portfolio": "portfolio",
+  "portfolio_title": "Portfolio",
+  "portfolio_intro": "Projets, produits et logiciel libre — le détail derrière la page d'accueil."
 }
