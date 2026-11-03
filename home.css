@@ -146,3 +146,8 @@ footer#copyright-notice {
 .list strong {
     color: var(--accent-color);
 }
+
+.home a.mail {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
