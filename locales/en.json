@@ -2,7 +2,7 @@
   "location": "Freelance software engineer · Lyon, France",
   "headline": "I design and deliver cloud platforms and integrations — on Azure, with Terraform — and connect AI assistants to them, safely.",
   "lede": "Organisations hire me when a platform has to be designed, wired to the systems around it, and actually run in production: infrastructure as code, APIs and message flows, and the connectors that let AI assistants use all of it — within your security rules.",
-  "contact": "Get in touch",
+  "contact": "Contact me",
   "examples_title": "What it looks like in practice",
   "ex1_title": "Microservice platforms for finance",
   "ex1_body": "transaction orchestration, business-rule checks, SWIFT messaging, data models and migrations — from design to user acceptance testing.",
@@ -45,5 +45,6 @@
   "blog_intro": "Cloud, integrations, AI tooling and the occasional detour — written down so the next person (often me) doesn't have to rediscover it.",
   "portfolio": "portfolio",
   "portfolio_title": "Portfolio",
-  "portfolio_intro": "Projects, products and open-source work — the details behind the home page."
+  "portfolio_intro": "Projects, products and open-source work — the details behind the home page.",
+  "email": "or send an email"
 }
