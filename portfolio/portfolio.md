@@ -40,19 +40,13 @@ Keywords: private endpoints, private dns zones, network security groups, load ba
 
 In today’s web, we have several identities. Almost one for every site.
 
-Our Token Exchange Services allow a seamless integration between different web applications (typically, a Digital Workplace integration).
-
-- LumApps
-  - Bunchball (gamification)
-  - Coveo (Search & Semantic Search)
-  - Looker
-  - Achievers
+Token exchange services allow a seamless integration between different web applications — typically a digital workplace talking to gamification, search, analytics and employee-recognition platforms, without asking users to sign in twice.
 
 ## A chatbot answering any LumApps related question
 
 Tags: #LLM #Q&A #RAG #retrieval-augmented-generation #formats-conversion
 
-[LumApps](https://www.lumapps.com/) (a Digital Workplace) offers a public [documentation web site](https://docs.lumapps.com/docs/). It’s a gold mine, and we use it a lot, at [Ariella Digital Consulting](https://www.arielladigitalconsulting.com/?utm_source=nilleb.com).
+[LumApps](https://www.lumapps.com/) (a Digital Workplace) offers a public [documentation web site](https://docs.lumapps.com/docs/). It’s a gold mine, and a perfect playground for retrieval-augmented generation.
 
 So we have
 
@@ -100,11 +94,11 @@ This is a sample of what we get, when querying our little LumDocsBot:
 
 Tags: #semantic-search #people-search #LLM #word-embeddings #postgres #pgvector #fts
 
-This company wishes to improve the collaboration across their departments and reduce the onboarding attrition.
+This organisation wishes to improve the collaboration across their departments and reduce the onboarding attrition.
 
-This organization is distributed across an entire continent - with eventually poor connectivity.
+Its staff work from many countries — sometimes with poor connectivity.
 
-The organization’s public web sites store thousands of PDFs (projects TARs & RRPs, briefs and papers, …) , blog posts, author biographies, … and more.
+The organization’s public web sites store thousands of PDFs (project reports, briefs and papers, …) , blog posts, author biographies, … and more.
 
 We have converted non-structured  and semi-structured data into structured data. We have extracted publication dates, author names, countries, and texts. We have then mapped the recognized author names to a primary source of truth.
 
@@ -118,4 +112,4 @@ Challenges:
 
 ### more about this
 
-- [Searching for people is not the same as searching for articles and concepts](https://nilleb.com/blog/#searching-for-people-is-not-the-same-as-searching-for-articles-and-concepts)
+- [Searching for people is not the same as searching for articles and concepts](https://nilleb.com/blog/post/#searching-for-people-is-not-the-same-as-searching-for-articles-and-concepts)

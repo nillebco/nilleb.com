@@ -40,18 +40,13 @@ Mots-clés : points de terminaison privés, zones DNS privées, groupes de sécu
 
 Dans le web d'aujourd'hui, nous avons plusieurs identités. Presque une pour chaque site.
 
-Nos Services d'échange de jetons permettent une intégration transparente entre différentes applications web (typiquement, une intégration de Digital Workplace).
-
-- LumApps
-  - Bunchball (gamification)
-  - Coveo (Recherche & Recherche sémantique)
-  - Looker
+Les services d'échange de jetons permettent une intégration transparente entre différentes applications web — typiquement une digital workplace qui dialogue avec des plateformes de gamification, de recherche, d'analytics et de reconnaissance des collaborateurs, sans que l'utilisateur ait à se reconnecter.
 
 ## Un chatbot répondant à toute question liée à LumApps
 
 Tags: #LLM #Q&A #RAG #retrieval-augmented-generation #formats-conversion
 
-[LumApps](https://www.lumapps.com/) (un Digital Workplace) propose un [site web de documentation public](https://docs.lumapps.com/docs/). C'est une mine d'or, et nous l'utilisons beaucoup, chez [Ariella Digital Consulting](https://www.arielladigitalconsulting.com/).
+[LumApps](https://www.lumapps.com/) (un Digital Workplace) propose un [site web de documentation public](https://docs.lumapps.com/docs/). C'est une mine d'or, et un terrain de jeu idéal pour la génération augmentée par la récupération.
 
 Nous avons donc :
 
@@ -99,11 +94,11 @@ Voici un échantillon de ce que nous obtenons, en interrogeant notre petit LumDo
 
 Tags: #semantic-search #people-search #LLM #word-embeddings #postgres #pgvector #fts
 
-Cette entreprise souhaite améliorer la collaboration entre ses départements et réduire l'attrition à l'onboarding.
+Cette organisation souhaite améliorer la collaboration entre ses départements et réduire l'attrition à l'onboarding.
 
-Cette organisation est répartie sur tout un continent - avec potentiellement une mauvaise connectivité.
+Ses équipes travaillent depuis de nombreux pays — parfois avec une connectivité médiocre.
 
-Les sites web publics de l'organisation stockent des milliers de PDFs (TARs & RRPs des projets, briefs et articles, ...), articles de blog, biographies d'auteurs, ... et plus encore.
+Les sites web publics de l'organisation stockent des milliers de PDFs (rapports de projets, briefs et articles, ...), articles de blog, biographies d'auteurs, ... et plus encore.
 
 Nous avons converti des données non structurées et semi-structurées en données structurées. Nous avons extrait les dates de publication, les noms d'auteurs, les pays et les textes. Nous avons ensuite mappé les noms d'auteurs reconnus à une source primaire de vérité.
 
@@ -117,4 +112,4 @@ Défis :
 
 ### En savoir plus
 
-- [Rechercher des personnes n'est pas la même chose que rechercher des articles et des concepts](https://nilleb.com/blog/#rechercher-des-personnes-nest-pas-la-même-chose-que-rechercher-des-articles-et-des-concepts) 
+- [Rechercher des personnes n'est pas la même chose que rechercher des articles et des concepts](https://nilleb.com/blog/post/#searching-for-people-is-not-the-same-as-searching-for-articles-and-concepts) 
