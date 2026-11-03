@@ -89,27 +89,3 @@ This is a sample of what we get, when querying our little LumDocsBot:
 > **Q: Which are the custom dimensions in Google Analytics 4?**
 >
 > Customer ID, Customer Name, Site ID, Site Name, Site Slug, Content Internal Type, Content Type ID, Content Type Name, Content Is Homepage, Content ID, Content Title, Content Slug, C> ontent Tag IDs, Content Tags, Content Metadata IDs, Content Metadata, Search Terms, User Is Admin, User Primary Language, and User Secondary Language. Source: https://docs.lumapps.com/docs/knowledge-l24187961517950485
-
-## The Expertise Locator
-
-Tags: #semantic-search #people-search #LLM #word-embeddings #postgres #pgvector #fts
-
-This organisation wishes to improve the collaboration across their departments and reduce the onboarding attrition.
-
-Its staff work from many countries — sometimes with poor connectivity.
-
-The organization’s public web sites store thousands of PDFs (project reports, briefs and papers, …) , blog posts, author biographies, … and more.
-
-We have converted non-structured  and semi-structured data into structured data. We have extracted publication dates, author names, countries, and texts. We have then mapped the recognized author names to a primary source of truth.
-
-Challenges:
-
-- map the orthographic variants of a name to the content of a normalized database
-- determine the best size of a paragraph, before converting it to an embedding
-- keep a good quality across a corpus of thousands of documents, distributed over the last 30 years
-- keep the performances of the vector database high enough to satisfy the queries of thousands of users
-- keep the bundle as small as possible in order to guarantee a good network connectivity from all around the globe
-
-### more about this
-
-- [Searching for people is not the same as searching for articles and concepts](https://nilleb.com/blog/post/#searching-for-people-is-not-the-same-as-searching-for-articles-and-concepts)

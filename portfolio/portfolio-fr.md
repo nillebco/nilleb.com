@@ -89,27 +89,3 @@ Voici un échantillon de ce que nous obtenons, en interrogeant notre petit LumDo
 > **Quelles sont les dimensions personnalisées dans Google Analytics 4** ?
 >
 > ID Client, Nom du Client, ID du Site, Nom du Site, Slug du Site, Type Interne du Contenu, ID du Type de Contenu, Nom du Type de Contenu, Le Contenu est-il une Page d'accueil, ID du Contenu, Titre du Contenu, Slug du Contenu, IDs des Tags du Contenu, Tags du Contenu, IDs des Métadonnées du Contenu, Métadonnées du Contenu, Termes de Recherche, L'Utilisateur est-il Admin, Langue Principale de l'Utilisateur, et Langue Secondaire de l'Utilisateur. Source : https://docs.lumapps.com/docs/knowledge-l24187961517950485
-
-## Le Localisateur d'Expertise
-
-Tags: #semantic-search #people-search #LLM #word-embeddings #postgres #pgvector #fts
-
-Cette organisation souhaite améliorer la collaboration entre ses départements et réduire l'attrition à l'onboarding.
-
-Ses équipes travaillent depuis de nombreux pays — parfois avec une connectivité médiocre.
-
-Les sites web publics de l'organisation stockent des milliers de PDFs (rapports de projets, briefs et articles, ...), articles de blog, biographies d'auteurs, ... et plus encore.
-
-Nous avons converti des données non structurées et semi-structurées en données structurées. Nous avons extrait les dates de publication, les noms d'auteurs, les pays et les textes. Nous avons ensuite mappé les noms d'auteurs reconnus à une source primaire de vérité.
-
-Défis :
-
-- mapper les variantes orthographiques d'un nom au contenu d'une base de données normalisée
-- déterminer la meilleure taille d'un paragraphe, avant de le convertir en embedding
-- maintenir une bonne qualité à travers un corpus de milliers de documents, répartis sur les 30 dernières années
-- maintenir les performances de la base de données vectorielle suffisamment élevées pour satisfaire les requêtes de milliers d'utilisateurs
-- garder le bundle aussi petit que possible pour garantir une bonne connectivité réseau depuis le monde entier
-
-### En savoir plus
-
-- [Rechercher des personnes n'est pas la même chose que rechercher des articles et des concepts](https://nilleb.com/blog/post/#searching-for-people-is-not-the-same-as-searching-for-articles-and-concepts) 
