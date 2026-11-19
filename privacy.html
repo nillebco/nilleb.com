@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy · audience measurement — nilleb.co</title>
+  <meta name="description" content="How nilleb.co, pressto.app and other nillebco sites measure their audience: no cookies, no IP addresses stored, anonymous statistics kept 13 months.">
+  <link rel="canonical" href="https://nilleb.co/privacy.html" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="style.css?v=20261103" />
+  <style>
+    main.privacy { max-width: 42rem; margin: 0 auto; padding: 2.5rem 16px 5rem; line-height: 1.6; }
+    main.privacy h1 { font-size: 1.8rem; margin-bottom: .3rem; }
+    main.privacy h2 { font-size: 1.15rem; margin-top: 2rem; }
+    main.privacy .updated { opacity: .7; font-size: .9rem; }
+    main.privacy li { margin: .3rem 0; }
+  </style>
+</head>
+
+<body>
+  <main class="privacy">
+    <p><a href="/">← nilleb.co</a></p>
+    <h1>Privacy: audience measurement</h1>
+    <p class="updated">Applies to nilleb.co, pressto.app and the other nillebco sites that load <code>analytics.nilleb.com</code>. Last updated 19 November 2026.</p>
+
+    <p>These sites count their visits with a small analytics service that nillebco wrote and runs itself. It exists to answer “how many people read this page, and where did they come from?” — nothing else.</p>
+
+    <h2>What is recorded</h2>
+    <ul>
+      <li>the address of the page you opened, without its query string;</li>
+      <li>the page that linked to it (the referrer), also without query string;</li>
+      <li>your browser and operating system family, and your browser's preferred languages;</li>
+      <li>your country, looked up on the server from your IP address with a local database (<a href="https://db-ip.com">IP Geolocation by DB-IP</a>, CC BY 4.0);</li>
+      <li>an anonymous visitor identifier, computed from the above and your IP address with a random value that is replaced every day and then deleted. It lets the statistics count one visitor once per day; it cannot be traced back to you or linked to your visits on another day.</li>
+    </ul>
+
+    <h2>What is not</h2>
+    <ul>
+      <li>No cookies, and nothing stored on your device: there is no banner because there is nothing to consent to.</li>
+      <li>Your IP address is never stored, and never sent to anyone else.</li>
+      <li>No tracking across sites, no advertising, no profiles, nothing sold or shared.</li>
+    </ul>
+
+    <h2>Where and how long</h2>
+    <p>The data stays on a server in the European Union (Hetzner, Nuremberg, Germany) and is deleted automatically after 13 months.</p>
+
+    <h2>Saying no</h2>
+    <p>Turn on <a href="https://globalprivacycontrol.org/">Global Privacy Control</a> or “Do Not Track” in your browser and no visit is recorded. Blocking <code>analytics.nilleb.com</code> works too.</p>
+
+    <h2>Who is responsible</h2>
+    <p>nillebco EURL, Ivo Bellin Salarin, Lyon, France — <a href="mailto:ivo@nilleb.com">ivo@nilleb.com</a>. The measurement relies on legitimate interest (GDPR art. 6(1)(f)) and follows the conditions under which the CNIL exempts audience measurement from consent. Questions or objections by email; you can also complain to the <a href="https://www.cnil.fr/fr/plaintes">CNIL</a>.</p>
+
+    <h2 lang="fr">En bref</h2>
+    <p lang="fr">Mesure d'audience sans cookie, réalisée par nillebco sur ses propres serveurs (UE) : adresse de la page sans paramètres, page d'origine, navigateur, langue et pays. L'adresse IP n'est ni conservée ni transmise ; l'identifiant de visiteur change chaque jour. Données supprimées après 13 mois. Pour vous y opposer : activez Global Privacy Control ou « Do Not Track », ou écrivez à <a href="mailto:ivo@nilleb.com">ivo@nilleb.com</a>.</p>
+  </main>
+</body>
+
+</html>
